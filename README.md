@@ -1,6 +1,6 @@
 # Kodluyoruz-FronEnd Web Development Çalışmalarım
 
-### Selam ben [***Ozan***](https://app.patika.dev/nthn)! Bu repo altında [kodluyoruz](https://www.kodluyoruz.org/) ve [patika.dev](https://app.patika.dev/) ekibi ile bootcamp hazırlık sürecinde yapmış olduğum çalışmalarım olacak. Hoşgeldin!
+### Selam ben [***Ozan***](https://app.patika.dev/nthn)! Bu repo altında [kodluyoruz](https://www.kodluyoruz.org/) ve [patika.dev](https://app.patika.dev/) ekibi ile bootcamp hazırlık sürecinde yapmış olduğum çalışmalarım olacak. Hoşgeldin! :wave:
  ---
  ## **HTML**
 
