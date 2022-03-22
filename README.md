@@ -32,7 +32,7 @@
 
     Bir HTML sayfası oluşturup sayfamızı CSS ile tasarımsal açıdan geliştirdiğimiz bir çalışma.
 
-    **İçerik** [:floppy_disk:](CSS/Kodluyoruz-CSS-Odev-1)
+    **İçerik:** [:floppy_disk:](CSS/Kodluyoruz-CSS-Odev-1)
 ---
 ## **Installation**
 ```
