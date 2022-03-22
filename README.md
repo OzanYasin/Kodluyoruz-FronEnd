@@ -33,4 +33,3 @@
 git clone https://github.com/OzanYasin/Kodluyoruz-FronEnd.git
 ```
 ![Kodluyoruz](kodluyoruz.png)
-

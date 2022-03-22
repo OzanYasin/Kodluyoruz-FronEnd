@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #DA295C;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*********************** Navigation ***********************/
+
+.nav {
+    text-align: center;
+}
+
+.nav ul {
+    padding: 0px;
+}
+
+.nav li {
+    list-style-type: none;
+    display: inline;
+    margin: 0px 8px;
+}
+
+/*********************** Main ***********************/
+
+.main-index h2,
+.main-about-us h2 {
+    color: #712ef7;
+}
+
+.main-about-us p {
+    text-align: left;
+}
+
+/*********************** Section ***********************/
+
+.content-index h4,
+.content-about-us h4 {
+    color: #b38d1b;
+}
+
+.content-index li {
+    list-style-position: inside;
+    
+}
+
+.content-about-us {
+    text-align: left;
+}
+
+.content-products {
+    display: inline-flex;
+}
