@@ -1,0 +1,32 @@
+/* Olabildiğince aslına benzetmek için sayfayı tasarlarken "page source" özelliğini kullanarak sayfanın yapısını olabildiğince benzer tutmayı hedefleyeceğim. Olabildiğince ufak değişiklere yer vericem.*/
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+/* Centering */
+
+center {
+    display: block;
+    text-align: -webkit-center;
+}
+
+/* Table Content */
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: center;
+    border-spacing: 2px;
+    border-color: grey;
+    font-variant: normal;
+}

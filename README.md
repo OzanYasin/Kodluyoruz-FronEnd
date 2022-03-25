@@ -33,6 +33,10 @@
     Bir HTML sayfası oluşturup sayfamızı CSS ile tasarımsal açıdan geliştirdiğimiz bir çalışma.
 
     **İçerik:** [:floppy_disk:](CSS/Kodluyoruz-CSS-Odev-1)
+
+6.  **Kodluyoruz-CSS-Odev-2**
+
+    İlk versiyonu 1998 yılında yayınlanmış olan Google'ın ilk versiyonunu birebir yaptığımız bir çalışma.
 ---
 ## **Installation**
 ```
