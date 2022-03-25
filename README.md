@@ -37,6 +37,8 @@
 6.  **Kodluyoruz-CSS-Odev-2**
 
     İlk versiyonu 1998 yılında yayınlanmış olan Google'ın ilk versiyonunu birebir yaptığımız bir çalışma.
+
+    **İçerik:** [:floppy_disk:](CSS/Kodluyoruz-CSS-Odev-2)
 ---
 ## **Installation**
 ```
