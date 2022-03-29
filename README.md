@@ -39,6 +39,12 @@
     İlk versiyonu 1998 yılında yayınlanmış olan Google'ın ilk versiyonunu birebir yaptığımız bir çalışma.
 
     **İçerik:** [:floppy_disk:](CSS/Kodluyoruz-CSS-Odev-2)
+
+7.  **Kodluyoruz-CSS-Odev-3**
+
+    Günümüzün Google ana sayfasını birebir benzettiğimiz bir çalışma. Tercih olarak karanlık tema Google sayfasını yaptım.
+
+    **İçerik:** [:floppy_disk:](CSS/Kodluyoruz-CSS-Odev-3/)
 ---
 ## **Installation**
 ```
