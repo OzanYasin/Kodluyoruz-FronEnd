@@ -42,9 +42,14 @@
 
 7.  **Kodluyoruz-CSS-Odev-3**
 
-    Günümüzün Google ana sayfasını birebir benzettiğimiz bir çalışma. Tercih olarak karanlık tema Google sayfasını yaptım.
+    Günümüzün karanlık tema Google ana sayfasını birebir benzettiğimiz bir çalışma. 
 
     **İçerik:** [:floppy_disk:](CSS/Kodluyoruz-CSS-Odev-3/)
+
+8. **Kodluyoruz-Algoritmalar-Odev-1-2-3**
+    Insertion Sort, Merge Sort ve Binary Search Tree proje ödevlerinin yapıldığı .md uzantılı çalışmalar dizisi.
+
+    **İçerik:** [:floppy_disk:](Veri-Yapilari&Algoritmalar/)
 ---
 ## **Installation**
 ```
