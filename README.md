@@ -56,7 +56,13 @@
 
     CSS-Odev-1'de tasarladığımız "Müzik Dükkanım" adlı sayfamızı bootstrap kütüphanesini kullanarak geliştirdiğimiz bir çalışma.
 
-    **İçerik:** [:floppy_disk:](Bootstrap\Kodluyoruz-Bootstrap-Odev-1)
+    **İçerik:** [:floppy_disk:](Bootstrap/Kodluyoruz-Bootstrap-Odev-1)
+
+10. **Kodluyoruz-Js-Odev-1**
+
+    HTML, CSS ve JavaScript kullanarak basitçe girişte ismimizi isteyip sonra bu ismi karşılama ekranına yerleştirerek o anki saati ve günü gösteren bir çalışma.
+
+    **İçerik:** [:floppy_disk:](JS/Kodluyoruz-Js-Odev-1/)
 ---
 ## **Installation**
 ```
