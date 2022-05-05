@@ -1,3 +1,5 @@
+// Items
+
 const menu = [
   {
     id: 1,
@@ -78,10 +80,14 @@ const menu = [
 const sectionCenter = document.querySelector(".section-center");
 
 window.addEventListener("DOMContentLoaded", function () {
-  let displayMenu = menu.map(function (item) {
+  displayMenuItems(menu);
+});
+
+function displayMenuItems(menuItems) {
+  let displayMenu = menuItems.map(function (item) {
     // console.log(item);
 
-    return `<article class="menu-item">
+    return `<article class="menu-item">  
               <img src=${item.img} class="photo" alt=${item.title} />
               <div class="item-info">
                 <header>
@@ -91,10 +97,11 @@ window.addEventListener("DOMContentLoaded", function () {
                 <p class="item-text">
                   ${item.desc}
                 </p>
-              </div>
-            </article>`;
+              </div> 
+            </article>`; //icerisine yazdirmak istedigimiz info (html)
   });
-  displayMenu = displayMenu.join("");
+  displayMenu = displayMenu.join(""); // joining everything together
   // console.log(displayMenu);
-  sectionCenter.innerHTML = displayMenu;
-});
+  sectionCenter.innerHTML = displayMenu; // placed in the parent element
+  // in order to setup filtering, it will just make sense if we setup this functionality in a function.
+}
