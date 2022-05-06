@@ -89,7 +89,17 @@ window.addEventListener("DOMContentLoaded", function () {
 
 filterBtns.forEach(function (btn) {
   btn.addEventListener("click", function (e) {
-    console.log(e.currentTarget.dataset); // dataset property does not unique to dataset.
+    const category = e.currentTarget.dataset.id; // dataset property does not unique to dataset. References to "data-id". writing down .id to look more specificly to IDs of menu.
+    const menuCategory = menu.filter(function (menuItem) {
+      if (menuItem.category === category) {
+        return menuItem;
+      }
+    });
+    if (category === "all") {
+      displayMenuItems(menu);
+    } else {
+      displayMenuItems(menuCategory);
+    }
   });
 });
 
