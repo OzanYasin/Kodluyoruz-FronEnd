@@ -78,29 +78,13 @@ const menu = [
 // Selectors
 
 const sectionCenter = document.querySelector(".section-center");
-const filterBtns = document.querySelectorAll(".filter-btn");
+const container = document.querySelector(".btn-container");
 
 // load items
+
 window.addEventListener("DOMContentLoaded", function () {
   displayMenuItems(menu);
-});
-
-// filter items
-
-filterBtns.forEach(function (btn) {
-  btn.addEventListener("click", function (e) {
-    const category = e.currentTarget.dataset.id; // dataset property does not unique to dataset. References to "data-id". writing down .id to look more specificly to IDs of menu.
-    const menuCategory = menu.filter(function (menuItem) {
-      if (menuItem.category === category) {
-        return menuItem;
-      }
-    });
-    if (category === "all") {
-      displayMenuItems(menu);
-    } else {
-      displayMenuItems(menuCategory);
-    }
-  });
+  displayMenuButtons();
 });
 
 function displayMenuItems(menuItems) {
@@ -118,10 +102,54 @@ function displayMenuItems(menuItems) {
                   ${item.desc}
                 </p>
               </div> 
-            </article>`; //icerisine yazdirmak istedigimiz info (html)
+            </article>`; // index.html icerisine yazdirmak istedigimiz info
   });
   displayMenu = displayMenu.join(""); // joining everything together
   // console.log(displayMenu);
   sectionCenter.innerHTML = displayMenu; // placed in the parent element
   // in order to setup filtering, it will just make sense if we setup this functionality in a function.
+}
+
+function displayMenuButtons() {
+  // making dinamic menu list -> get only unique categories! lets use the power of the reduce() :-)
+  const categories = menu.reduce(
+    function (values, item) {
+      if (!values.includes(item.category)) {
+        values.push(item.category);
+        // if values does not include the item category, add that category.
+      }
+      return values;
+    },
+    ["all"] // if that is not the case, next integration already in that item category which is "all" array; than just skip.
+  );
+  const categoryBtsn = categories
+    .map(function (category) {
+      return `
+      <button class="filter-btn" type="button" data-id=${category}>
+      ${category}
+      </button>
+      `;
+    })
+    .join("");
+  container.innerHTML = categoryBtsn;
+  const filterBtns = container.querySelectorAll(".filter-btn"); // if we use more specific selection, if we have selected that (container) element already.
+  // We are selecting buttons after added them dynamically.
+
+  // filter items
+
+  filterBtns.forEach(function (btn) {
+    btn.addEventListener("click", function (e) {
+      const category = e.currentTarget.dataset.id; // dataset property does not unique to dataset. References to "data-id". writing down .id to look more specificly to IDs of menu.
+      const menuCategory = menu.filter(function (menuItem) {
+        if (menuItem.category === category) {
+          return menuItem;
+        }
+      });
+      if (category === "all") {
+        displayMenuItems(menu);
+      } else {
+        displayMenuItems(menuCategory);
+      }
+    });
+  });
 }
