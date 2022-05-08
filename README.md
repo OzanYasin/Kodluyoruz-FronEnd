@@ -1,12 +1,14 @@
 # Kodluyoruz-FronEnd Web Development Çalışmalarım
 
-### Selam ben [***Ozan***](https://app.patika.dev/nthn)! Bu repo altında [kodluyoruz](https://www.kodluyoruz.org/) ve [patika.dev](https://app.patika.dev/) ekibi ile bootcamp hazırlık sürecinde yapmış olduğum çalışmalarım olacak. Hoşgeldin! :wave:
- ---
-##  **HTML**
+### Selam ben [**_Ozan_**](https://app.patika.dev/nthn)! Bu repo altında [kodluyoruz](https://www.kodluyoruz.org/) ve [patika.dev](https://app.patika.dev/) ekibi ile bootcamp hazırlık sürecinde yapmış olduğum çalışmalarım olacak. Hoşgeldin! :wave:
+
+---
+
+## **HTML**
 
 1.  **Kodluyoruz-HTML-Odev-1**
 
-    Basitçe hazırlanmış hakkımda hazırlanmış bir web sayfası. 
+    Basitçe hazırlanmış hakkımda hazırlanmış bir web sayfası.
 
     **İçerik:** [:floppy_disk:](HTML/Kodluyoruz-HTML-Odev-1/index.html/)
 
@@ -42,17 +44,17 @@
 
 7.  **Kodluyoruz-CSS-Odev-3**
 
-    Günümüzün karanlık tema Google ana sayfasını birebir benzettiğimiz bir çalışma. 
+    Günümüzün karanlık tema Google ana sayfasını birebir benzettiğimiz bir çalışma.
 
     **İçerik:** [:floppy_disk:](CSS/Kodluyoruz-CSS-Odev-3/)
 
-8. **Kodluyoruz-Algoritmalar-Odev-1-2-3**
+8.  **Kodluyoruz-Algoritmalar-Odev-1-2-3**
 
     Insertion Sort, Merge Sort ve Binary Search Tree proje ödevlerinin yapıldığı .md uzantılı çalışmalar dizisi.
 
     **İçerik:** [:floppy_disk:](Veri-Yapilari&Algoritmalar/)
 
-9. **Kodlluyoruz-Bootstrap-Odev-1**
+9.  **Kodlluyoruz-Bootstrap-Odev-1**
 
     CSS-Odev-1'de tasarladığımız "Müzik Dükkanım" adlı sayfamızı bootstrap kütüphanesini kullanarak geliştirdiğimiz bir çalışma.
 
@@ -63,9 +65,17 @@
     HTML, CSS ve JavaScript kullanarak basitçe girişte ismimizi isteyip sonra bu ismi karşılama ekranına yerleştirerek o anki saati ve günü gösteren bir çalışma.
 
     **İçerik:** [:floppy_disk:](JS/Kodluyoruz-Js-Odev-1/)
+
+11. **Kodluyoruz-Js-Odev-2**
+
+    JavaScript DOM etkileşimi ile yaptığım bir yapılacaklar listesi sayfası.
+
 ---
+
 ## **Installation**
+
 ```
 git clone https://github.com/OzanYasin/Kodluyoruz-FronEnd.git
 ```
+
 ![Kodluyoruz](kodluyoruz.png)
