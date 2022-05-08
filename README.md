@@ -70,6 +70,14 @@
 
     JavaScript DOM etkileşimi ile yaptığım bir yapılacaklar listesi sayfası.
 
+    **İçerik:** [:floppy_disk:](JS/Kodluyoruz-Js-Odev-2/)
+
+12. **Kodluyoruz-Js-Odev-3**
+
+    Bir uzak doğu restoran menüsü şeklinde düzenlenmiş sitede JavaScript sayesinde farklı kategoriler arasında geçiş yaptığımız bir çalışma.
+
+    **İçerik:** [:floppy_disk:](JS/Kodluyoruz-Js-Odev-3/)
+
 ---
 
 ## **Installation**
